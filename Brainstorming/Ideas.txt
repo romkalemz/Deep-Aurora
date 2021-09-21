@@ -1,0 +1,55 @@
+﻿V2
+* Mobile application
+* Click on object, and then drag to move?
+* Real time intervals (10min updates probably)
+
+
+* Deep ocean abyss
+* Colorful, sunrise / sunset water glistening
+* Spaceship (have x amount of slots open for special ability)
+   * Combines to make a unique combination (order matters?)
+   * Zoom into player object to modify items being held
+* Perma item stacking (different type)
+* Subterfuge + ROR2
+   * Strategy + rogue-like
+* Turn based? 
+   * Each player has limited time to make a “action”
+      * Actions consist of either:
+         * Move Player
+         * Idle / collect resources?
+         * Upgrade
+* Potential Objectives
+   * Be last player standing
+   * Collect a certain amount of resource(s)
+   * Reach/find a certain object /location
+
+
+Theme
+* Space theme
+* Planets as outposts 
+* Spaceships are ways of travel. Lock onto other outposts
+* Miners is our production
+* Design example: 
+
+
+Gameplay
+* Long travels (Multiple hours)
+* Miners are produced every cycle (Certain amount of hours) and they help increase production
+* Miners attacking other planets
+* Specialists travel 3 at a time, no more
+* Clean hit, critical hit, knockout (attacking damage changes)
+* Vision
+   * A sonar detecting in an area, start off with an initial vision
+   * Astroids that block out vision
+      * Can be used by enemies or the player to move around unseen
+      * Counter with a spec that sees through this?
+
+
+Game Qualities
+* Mining different resources on different planets. These resources are then used to purchase certain specialists at a “specialist shop”
+* Specialist shop; a place where to purchase any specialist
+   * Outpost refreshes every cycle. This cycle is a certain amount of time, ex. 16h
+   * The shop contains 3 specialist at a time
+   * Specialists:
+      * One that carries a large amount of drillers and can send off a certain amount of smaller ships to target different planets. Can split specialists on them if they are carrying any
+      *
