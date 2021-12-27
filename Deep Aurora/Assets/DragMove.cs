@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class DragMove : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    Rigidbody2D rb;
+    Camera cam;
+
+    void Start() {
+        cam = Camera.main;
+        rb = GetComponent<Rigidbody2D>();
+        Debug.Log("started");
+    }
+    void onMouseDown() {
+        Debug.Log("clicked");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void onMouseUp() {
+        rb.position = cam.ScreenToWorldPoint(Input.mousePosition);
+        Debug.Log("released");
     }
+
 }
